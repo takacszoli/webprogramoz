@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 20%;
+}
+th, td {
+    text-align: left;
+    font-family: sans-serif;
+    color: black;
+    
+}
+th {
+    
+    background-color: #ececec;
+    border-top: 5px solid white;
+}
+td {
+    
+    background-color: #ececec;
+    border-bottom: 5px solid white;
+
+}
+
+td.short{
+    width: 20%;
+}
+td.long{
+    width: 80%;
+}
